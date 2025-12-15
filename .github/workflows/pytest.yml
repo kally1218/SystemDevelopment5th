@@ -3,9 +3,9 @@ name: Run Tests
 # Indentation can only use space
 on:
     push:
-        branches: [ main, master, develop]
+        branches: [ main, master, dev]
     pull_request:
-        branches: [ main, master, develop]
+        branches: [ main, master, dev]
 jobs:
     test:
         runs-on: ubuntu-latest
